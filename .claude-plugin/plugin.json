@@ -1,5 +1,6 @@
 {
   "name": "invoice-check",
   "version": "0.1.0",
-  "description": "Monthly contractor invoice check: local MCP server and skill that propose verdicts, write a review list and draft letters, and record Sanne's decisions."
+  "description": "Monthly contractor invoice check: local MCP server and skill that propose verdicts, write a review list and draft letters, and record Sanne's decisions.",
+  "author": {"name": "Kyle Pagunsan"}
 }
