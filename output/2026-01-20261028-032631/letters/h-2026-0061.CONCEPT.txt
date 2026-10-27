@@ -1,0 +1,26 @@
+Aan: Installatiebedrijf Hoekstra B.V.
+Betreft: factuur 2026-0061 van 30 januari 2026, werkorder WO-26-1024
+
+Geachte heer, mevrouw,
+
+Bij de controle van factuur 2026-0061 hebben wij het volgende vastgesteld.
+
+Regel 1: Radiator 600x1200 type 22
+  Gefactureerd:     1 stuk x EUR 298,25 = EUR 298,25
+  Berekend tarief:  9% btw
+  Juist tarief:     21% btw
+  Reden:            voor deze regel geldt 21% btw, omdat het verlaagde tarief van 9 procent alleen geldt voor schilderarbeid (prijslijstcodes W01 en W04); op materiaal geldt 21 procent.
+  Artikel 4.6:      "het verlaagde tarief van 9 procent, uitsluitend over de arbeid (prijslijstcodes W01 en W04)" en "Op materiaal en op alle overige werkzaamheden geldt 21 procent."
+
+Regel 2: Arbeid installateur
+  Gefactureerd:     2 uur x EUR 60,37 = EUR 120,74
+  Berekend tarief:  9% btw
+  Juist tarief:     21% btw
+  Reden:            voor deze regel geldt 21% btw, omdat het verlaagde tarief van 9 procent alleen geldt voor schilderarbeid (prijslijstcodes W01 en W04).
+  Artikel 4.6:      "het verlaagde tarief van 9 procent, uitsluitend over de arbeid (prijslijstcodes W01 en W04)" en "Op materiaal en op alle overige werkzaamheden geldt 21 procent."
+
+Wij verzoeken u een gecorrigeerde factuur te sturen met het juiste btw-tarief.
+
+Met vriendelijke groet,
+
+Woonkring Oostervelde, crediteurenadministratie

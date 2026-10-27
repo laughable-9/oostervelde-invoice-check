@@ -1,0 +1,52 @@
+﻿I ran the January 2026 check on the default sample data: 40 invoices. Nothing has been recorded, sent or paid.
+
+- **Proposed verdicts:** 22 dispute, 17 approve, 1 hold.
+- **Risk levels:** 11 high, 18 medium, 11 low.
+- **Total disputed:** EUR 2,649.85 excl. VAT (EUR 3,412.47 incl. VAT).
+- **Draft letters:** 22 Dutch letters were written as `.CONCEPT.txt` drafts.
+- **Dashboard:** http://127.0.0.1:8767/?month=2026-01
+- **Files:** `output/2026-01-20261028-032631/review-list.md` and `review.html`
+
+The dispute-by date is only an estimate: invoice date plus 10 working days, without holidays. Every one of those dates has already passed, so check whether late disputes are still accepted.
+
+## High risk
+
+| Invoice | Proposal | Dispute by | Problem | Disputed excl. / incl. VAT |
+|---|---|---|---|---|
+| w-DW26-013 (De Wit, WO-26-1099) | **HOLD** | n/a | R15: WO-26-1099 is not in the work order export (Art. 4.9). Confirm the job with the housing officer. The VAT rate can't be checked without a build year. | 0.00 / 0.00, pay nothing yet |
+| b-B-26-0131 (Bosman, WO-26-1015) | Dispute | 2026-02-09 | R9, line 4: extra work billed at 640.00, but approval GA-0419 only covers 400.00 (Art. 4.5) | 240.00 / 290.40 |
+| h-2026-0044 (Hoekstra, WO-26-1007) | Dispute | 2026-01-27 | R6, line 2: 8 hours billed, maximum is 6, no approval for extra hours. 2 h x 60.37 (Art. 4.4) | 120.74 / 146.10 |
+| h-2026-0052 (Hoekstra, WO-26-1036) | Dispute | 2026-02-06 | R19: stated total 510.20, but 339.01 + 71.19 VAT = 410.20 | 0.00 / 100.00 |
+| h-2026-0061 (Hoekstra, WO-26-1024) | Dispute | 2026-02-13 | R10, lines 1 and 2: 9% VAT charged where 21% applies, so 50.28 too little VAT in total. Information only: ask for a corrected invoice, nothing deducted. | 0.00 / 0.00 |
+| j-F26-0019 (Jansen, WO-26-1013) | Dispute | 2026-02-10 | R13: duplicate of F26-0001, same lines and same total (Art. 4.8) | 1,404.00 / 1,698.84 (whole invoice) |
+| j-F26-0024 (Jansen, WO-26-1028) | Dispute | 2026-02-13 | R8, line 3: extra work of 310.00 with no approval. Above EUR 250 nothing is paid without approval (Art. 4.5) | 310.00 / 375.10 |
+| w-DW26-002 (De Wit, WO-26-1030) | Dispute | 2026-01-19 | R10, line 1: painting labour charged at 21% VAT, but 9% applies (house built 1968) | 0.00 / 58.80 |
+| w-DW26-011 (De Wit, WO-26-1008) | Dispute | 2026-02-02 | R10, line 1: same issue, 21% charged where 9% applies | 0.00 / 60.68 |
+| w-DW26-015 (De Wit, WO-26-1035) | Dispute | 2026-02-06 | R10, lines 1 and 2: 9% charged on a house built in 2025, so 90.28 too little VAT. Information only: ask for a corrected invoice. | 0.00 / 0.00 |
+| w-DW26-018 (De Wit, WO-26-1022) | Dispute | 2026-02-13 | R6, line 1: 14 hours billed, maximum is 12, no approval. 2 h x 50.57 | 101.14 / 110.24 |
+
+## Medium risk
+
+| Invoice | Proposal | Dispute by | Problem | Disputed excl. / incl. VAT |
+|---|---|---|---|---|
+| b-B-26-0089 | Dispute | 2026-01-16 | R1, line 1: bitumen at 39.22, but the 2025 list price is 38.00 (work done 15 Dec 2025) | 36.60 / 44.29 |
+| b-B-26-0102 | Dispute | 2026-01-29 | R4, line 4: call-out fee on a regular work order (Art. 4.3) | 46.44 / 56.19 |
+| b-B-26-0127 | Dispute | 2026-02-06 | R6, line 2: 10 hours billed, limit is 8 plus 1 approved (MU-0241) | 63.98 / 77.42 |
+| b-B-26-0140 | Dispute | 2026-02-12 | R12, line 4: "Vogelwering dakgoot" is not in the price list and has no approval (Art. 4.7) | 58.50 / 70.79 |
+| b-B-26-0144 | Dispute | 2026-02-13 | R1, line 2: 66.00 per hour, but the 2026 list price is 63.98 (small) | 14.14 / 17.11 |
+| h-2026-0038 | Dispute | 2026-01-26 | R1, lines 1 and 2: 2026 prices used for work done in Dec 2025 (small) | 24.11 / 29.17 |
+| h-2026-0040 | Dispute | 2026-01-26 | R1, line 1: boiler at 2,528.40, but the 2025 list price is 2,450.00 | 78.40 / 94.86 |
+| h-2026-0057 | Dispute | 2026-02-06 | R3, line 1: 7.25 per metre, but the list price per roll works out to 6.708 per metre (small) | 21.68 / 26.23 |
+| h-2026-0058 | Dispute | 2026-02-10 | R5, line 4: second call-out fee on the same work order | 46.44 / 56.20 |
+| j-F26-0016 | Dispute | 2026-02-03 | R1, line 1: 1,245.00, but the 2026 list price is 1,217.76 | 27.24 / 32.96 |
+| j-F26-0021 | Dispute | 2026-02-11 | R4, line 3: call-out fee on a regular work order | 46.44 / 56.19 |
+| w-DW26-016 | Dispute | 2026-02-09 | R17, line 2: 30 x 7.43 is 222.90, not 232.90 (small) | 10.00 / 10.90 |
+| h-2026-0049 | Approve | n/a | The call-out fee issue is settled by credit note C003. Pay 168.58. | 0 |
+| h-2026-C003 | Approve | n/a | Credit note of -56.19, offset against 2026-0049 | 0 |
+| h-2026-0063, j-F26-0007, j-F26-0010, w-DW26-009 | Approve | n/a | No problems. Medium risk only because they rely on earlier decisions (Q6/Q8). | 0 |
+
+## Low risk (all approve, no problems found)
+
+b-B-26-0097, b-B-26-0099, h-2026-0031, h-2026-0035, h-2026-0050, j-F26-0001, j-F26-0012, j-F26-0018, w-DW26-004, w-DW26-014, w-DW26-017.
+
+The check did not report any instructions written inside invoice text. Ask me "why" about any line and I'll pull up the rule, invoice, work order or price. Decisions can be made later here or on the dashboard.
