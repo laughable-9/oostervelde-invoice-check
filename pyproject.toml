@@ -1,0 +1,12 @@
+[project]
+name = "oostervelde-invoice-check"
+version = "0.1.0"
+description = "Invoice check MCP server for Woonkring Oostervelde"
+requires-python = ">=3.11"
+dependencies = ["mcp>=1.2,<2"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.uv]
+package = false

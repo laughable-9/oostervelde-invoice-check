@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env*
+!.env.example
+notes/
+.playwright-mcp/
+CLAUDE.md
+AGENTS.md
+task-audit-transcript.md
+
+# runtime state from local use
+/decisions.csv
+/decisions.csv.lock
+/settings.json
+/settings.json.tmp
+
+# only the graded run and the comparison are kept
+/output/*
+!/output/2026-01-20261028-032631/
+!/output/comparison.md
