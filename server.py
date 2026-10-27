@@ -24,6 +24,7 @@ sys.path.insert(0, str(ROOT))
 import dashboard  # noqa: E402
 import parsers  # noqa: E402
 import report  # noqa: E402
+import rulebook_data  # noqa: E402
 import rules  # noqa: E402
 
 mcp = FastMCP("invoice-check")
@@ -473,11 +474,9 @@ def get_rule(rule_id: str, folder: str | None = None) -> dict:
     """Contract text (Dutch and English) and our reading for a rule (R0-R20), decision (Q1-Q21) or article (4.1-4.10)."""
     d = base(folder)
     rid = rule_id.strip().upper().removeprefix("ART. ").removeprefix("ART ")
-    book_p, contract_p = inside(d, "notes", "rulebook.md"), inside(d, "contract-excerpt.md")
-    book = book_p.read_text(encoding="utf-8") if book_p.exists() else ""
+    contract_p = inside(d, "contract-excerpt.md")
     contract = contract_p.read_text(encoding="utf-8") if contract_p.exists() else ""
-    m = re.search(rf"^### {re.escape(rid)}\. .*?(?=^##|\Z)", book, re.M | re.S)
-    reading = m.group(0).strip() if m else None
+    reading = rulebook_data.READINGS.get(rid)
     if re.fullmatch(r"4\.\d+", rid):
         arts = [rid]
     else:
@@ -486,11 +485,11 @@ def get_rule(rule_id: str, folder: str | None = None) -> dict:
     articles = []
     for a in arts:
         nl = re.search(rf"^\*\*{re.escape(a)} .*$", contract, re.M)
-        en = re.search(rf"^\| {re.escape(a)} [^|]*\|[^|]*\|([^|]*)\|", book, re.M)
+        en = rulebook_data.ARTICLES_EN.get(a)
         if not nl:  # fallback: the quoted Dutch sentence kept in rules.py
             nl = next((v for k, v in rules.ART.items() if k.startswith(a) and k[len(a):] in ("", "a", "b")), None)
         articles.append({"article": a, "dutch": nl.group(0) if isinstance(nl, re.Match) else nl,
-                         "english": en.group(1).strip() if en else None})
+                         "english": en})
     if reading is None and not articles:
         reading = rules.__doc__
     return {"rule": rid, "articles": articles, "our_reading": reading}
@@ -1049,10 +1048,7 @@ def review_list(run: str, d: Path, results, errors, letters: dict) -> str:
 
 
 def q_titles(d: Path) -> dict:
-    p = inside(d, "notes", "rulebook.md")
-    if not p.exists():
-        return {}
-    return dict(re.findall(r"^### (Q\d+)\. (.*)$", p.read_text(encoding="utf-8"), re.M))
+    return dict(rulebook_data.Q_TITLES)
 
 
 def month_label(invoices, month) -> str:

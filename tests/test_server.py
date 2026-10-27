@@ -161,3 +161,11 @@ def test_record_decision_custom_amount_applies_line_vat(data):
 @pytest.fixture(autouse=True)
 def no_dashboard(monkeypatch):
     monkeypatch.setenv("OOSTERVELDE_NO_DASHBOARD", "1")
+
+
+def test_rule_reading_ships_with_code(data):
+    assert not (Path(data) / "notes").exists()
+    rule = server.get_rule("R9", folder=data)
+    assert rule["our_reading"].startswith("### R9.")
+    assert rule["articles"] and rule["articles"][0]["english"]
+    assert server.q_titles(Path(data))["Q1"] == "Rounding mode for indexation"
