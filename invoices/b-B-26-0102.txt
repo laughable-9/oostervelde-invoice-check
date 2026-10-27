@@ -1,0 +1,16 @@
+DAKWERKEN BOSMAN & ZN.   Havenstraat 22, 6827 BL Arnhem
+KvK 00000003   IBAN NL00 TEST 0000 0000 03
+
+FACTUUR  nr. B-26-0102   datum 2026-01-15
+Opdrachtgever: Woonkring Oostervelde (werkorder WO-26-1005)
+Locatie: Parkweg 3, Velp
+Uitvoeringsdatum: 2026-01-12
+
+ 1. Dakgoot zink                             |   14 m     | a     55,73 |     780,22
+ 2. Arbeid dakdekker                         |    6 uur   | a     63,98 |     383,88
+ 3. Steiger plaatsen                         |    2 dag   | a    149,64 |     299,28
+ 4. Voorrijkosten spoed                      |    1 keer  | a     46,44 |      46,44
+
+                                   netto   1.509,82
+  BTW 21% over 1.509,82: 317,06
+                                   totaal  1.826,88

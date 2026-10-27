@@ -1,0 +1,22 @@
+code,supplier,description,unit,price_excl_vat_2025
+H01,Hoekstra,"CV-ketel vervangen, incl. montagemateriaal",stuk,2450.00
+H02,Hoekstra,Arbeid installateur,uur,58.50
+H03,Hoekstra,Thermostaat Honeywell T6,stuk,165.00
+H04,Hoekstra,Radiator 600x1200 type 22,stuk,289.00
+H05,Hoekstra,Koperen leiding 15 mm,rol 25 m,162.50
+H06,Hoekstra,Voorrijkosten spoed,keer,45.00
+H07,Hoekstra,"Lekkage verhelpen, vast tarief",stuk,135.00
+W01,De Wit,Arbeid schilder,uur,49.00
+W02,De Wit,Muurverf,liter,9.80
+W03,De Wit,Lakverf,liter,18.50
+W04,De Wit,Plafond sausen,m2,7.20
+B01,Bosman,Arbeid dakdekker,uur,62.00
+B02,Bosman,Bitumen dakbedekking,m2,38.00
+B03,Bosman,Dakgoot zink,m,54.00
+B04,Bosman,Steiger plaatsen,dag,145.00
+B05,Bosman,Voorrijkosten spoed,keer,45.00
+J01,Jansen,Arbeid elektricien,uur,56.00
+J02,Jansen,Groepenkast 8 groepen vervangen,stuk,1180.00
+J03,Jansen,Rookmelder koppelbaar,stuk,39.50
+J04,Jansen,Stopcontact dubbel,stuk,24.00
+J05,Jansen,Voorrijkosten spoed,keer,45.00

@@ -1,0 +1,11 @@
+invoice_file,invoice_no,supplier,verdict,sanne_note
+h-2026-0031.txt,2026-0031,Hoekstra,approve,
+w-DW26-004.txt,DW26-004,De Wit,approve,
+j-F26-0007.txt,F26-0007,Jansen,approve,"spoed, voorrijkosten ok"
+h-2026-0038.txt,2026-0038,Hoekstra,approve,prijzen kloppen met de nieuwe prijslijst
+b-B-26-0102.txt,B-26-0102,Bosman,dispute,"voorrijkosten op regulier werk, 45,00 + btw terugvragen"
+w-DW26-009.txt,DW26-009,De Wit,dispute,"meerwerk 385,00 boven de 250, geen akkoord gezien"
+h-2026-0044.txt,2026-0044,Hoekstra,dispute,"8 uur gefactureerd, max 6. 2 uur terugvragen"
+w-DW26-011.txt,DW26-011,De Wit,dispute,"schilderarbeid tegen 21% btw, moet 9%"
+j-F26-0012.txt,F26-0012,Jansen,approve,
+b-B-26-0097.txt,B-26-0097,Bosman,approve,spoed

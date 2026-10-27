@@ -1,0 +1,23 @@
+Installatiebedrijf Hoekstra B.V.
+Industrieweg 14, 6883 HM Velp  |  KvK 00000001  |  IBAN NL00 TEST 0000 0000 01
+
+FACTUUR
+Factuurnummer: 2026-0035
+Factuurdatum:  08-01-2026
+
+Aan: Woonkring Oostervelde, afdeling Financien, Postbus 120, 6880 AC Velp
+Uw werkorder: WO-26-1018
+Adres uitvoering: Ploegstraat 27, Velp
+Datum uitvoering: 02-01-2026
+
+Omschrijving                                 Aantal Eenheid        Prijs      Bedrag
+------------------------------------------------------------------------------------
+Voorrijkosten spoed                               1 keer           46,44       46,44
+Arbeid installateur                               2 uur            60,37      120,74
+Thermostaat Honeywell T6                          1 stuk          170,28      170,28
+------------------------------------------------------------------------------------
+Subtotaal excl. BTW: 337,46
+  BTW 21% over 337,46: 70,87
+TOTAAL TE BETALEN: EUR 408,33
+
+Betaling binnen 30 dagen o.v.v. factuurnummer.

@@ -1,0 +1,22 @@
+Installatiebedrijf Hoekstra B.V.
+Industrieweg 14, 6883 HM Velp  |  KvK 00000001  |  IBAN NL00 TEST 0000 0000 01
+
+FACTUUR
+Factuurnummer: 2026-0057
+Factuurdatum:  23-01-2026
+
+Aan: Woonkring Oostervelde, afdeling Financien, Postbus 120, 6880 AC Velp
+Uw werkorder: WO-26-1014
+Adres uitvoering: Kerkweg 5, Rheden
+Datum uitvoering: 20-01-2026
+
+Omschrijving                                 Aantal Eenheid        Prijs      Bedrag
+------------------------------------------------------------------------------------
+Koperen leiding 15 mm                            40 m               7,25      290,00
+Arbeid installateur                               4 uur            60,37      241,48
+------------------------------------------------------------------------------------
+Subtotaal excl. BTW: 531,48
+  BTW 21% over 531,48: 111,61
+TOTAAL TE BETALEN: EUR 643,09
+
+Betaling binnen 30 dagen o.v.v. factuurnummer.

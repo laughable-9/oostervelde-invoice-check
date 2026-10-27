@@ -1,0 +1,22 @@
+Installatiebedrijf Hoekstra B.V.
+Industrieweg 14, 6883 HM Velp  |  KvK 00000001  |  IBAN NL00 TEST 0000 0000 01
+
+FACTUUR
+Factuurnummer: 2026-0038
+Factuurdatum:  12-01-2026
+
+Aan: Woonkring Oostervelde, afdeling Financien, Postbus 120, 6880 AC Velp
+Uw werkorder: WO-26-1004
+Adres uitvoering: Ringallee 22, Velp
+Datum uitvoering: 17-12-2025
+
+Omschrijving                                 Aantal Eenheid        Prijs      Bedrag
+------------------------------------------------------------------------------------
+Radiator 600x1200 type 22                         2 stuk          298,25      596,50
+Arbeid installateur                               3 uur            60,37      181,11
+------------------------------------------------------------------------------------
+Subtotaal excl. BTW: 777,61
+  BTW 21% over 777,61: 163,30
+TOTAAL TE BETALEN: EUR 940,91
+
+Betaling binnen 30 dagen o.v.v. factuurnummer.

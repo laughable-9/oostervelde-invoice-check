@@ -1,0 +1,23 @@
+Installatiebedrijf Hoekstra B.V.
+Industrieweg 14, 6883 HM Velp  |  KvK 00000001  |  IBAN NL00 TEST 0000 0000 01
+
+FACTUUR
+Factuurnummer: 2026-0050
+Factuurdatum:  19-01-2026
+
+Aan: Woonkring Oostervelde, afdeling Financien, Postbus 120, 6880 AC Velp
+Uw werkorder: WO-26-1032
+Adres uitvoering: Torenstraat 3, Velp
+Datum uitvoering: 14-01-2026
+
+Omschrijving                                 Aantal Eenheid        Prijs      Bedrag
+------------------------------------------------------------------------------------
+CV-ketel vervangen, incl. montagemateriaal        1 stuk        2.528,40    2.528,40
+Arbeid installateur                               6 uur            60,37      362,22
+Koperen leiding 15 mm                             2 rol 25 m      167,70      335,40
+------------------------------------------------------------------------------------
+Subtotaal excl. BTW: 3.226,02
+  BTW 21% over 3.226,02: 677,46
+TOTAAL TE BETALEN: EUR 3.903,48
+
+Betaling binnen 30 dagen o.v.v. factuurnummer.

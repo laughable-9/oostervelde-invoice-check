@@ -1,0 +1,22 @@
+Installatiebedrijf Hoekstra B.V.
+Industrieweg 14, 6883 HM Velp  |  KvK 00000001  |  IBAN NL00 TEST 0000 0000 01
+
+FACTUUR
+Factuurnummer: 2026-0052
+Factuurdatum:  23-01-2026
+
+Aan: Woonkring Oostervelde, afdeling Financien, Postbus 120, 6880 AC Velp
+Uw werkorder: WO-26-1036
+Adres uitvoering: Graaf Ottoweg 12, Velp
+Datum uitvoering: 21-01-2026
+
+Omschrijving                                 Aantal Eenheid        Prijs      Bedrag
+------------------------------------------------------------------------------------
+Lekkage verhelpen, vast tarief                    2 stuk          139,32      278,64
+Arbeid installateur                               1 uur            60,37       60,37
+------------------------------------------------------------------------------------
+Subtotaal excl. BTW: 339,01
+  BTW 21% over 339,01: 71,19
+TOTAAL TE BETALEN: EUR 510,20
+
+Betaling binnen 30 dagen o.v.v. factuurnummer.

@@ -1,0 +1,16 @@
+DAKWERKEN BOSMAN & ZN.   Havenstraat 22, 6827 BL Arnhem
+KvK 00000003   IBAN NL00 TEST 0000 0000 03
+
+FACTUUR  nr. B-26-0131   datum 2026-01-26
+Opdrachtgever: Woonkring Oostervelde (werkorder WO-26-1015)
+Locatie: Daalhuizerweg 66, Velp
+Uitvoeringsdatum: 2026-01-21
+
+ 1. Bitumen dakbedekking                     |   48 m2    | a     39,22 |   1.882,56
+ 2. Arbeid dakdekker                         |   14 uur   | a     63,98 |     895,72
+ 3. Steiger plaatsen                         |    3 dag   | a    149,64 |     448,92
+ 4. Meerwerk: extra isolatie dakrand         |    1 post  | a    640,00 |     640,00
+
+                                   netto   3.867,20
+  BTW 21% over 3.867,20: 812,11
+                                   totaal  4.679,31

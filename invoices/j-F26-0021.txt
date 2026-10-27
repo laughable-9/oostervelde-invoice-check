@@ -1,0 +1,17 @@
+Elektro Jansen | Dorpsstraat 61, 6991 AE Rheden | KvK 00000004
+
+FACTUUR F26-0021 (28/01/2026)
+Klant: Woonkring Oostervelde Velp
+Werkbon: WO-26-1019, Boulevard Heuvelink 140, Velp, uitgevoerd op 23/01/2026
+
+Stopcontact dubbel
+    8 stuk @ 24,77 -> 198,16
+Arbeid elektricien
+    3 uur @ 57,79 -> 173,37
+Voorrijkosten spoed
+    1 keer @ 46,44 -> 46,44
+
+Subtotaal: 417,97
+  BTW 21% over 417,97: 87,77
+Totaal: EUR 505,74
+Bank: NL00 TEST 0000 0000 04
