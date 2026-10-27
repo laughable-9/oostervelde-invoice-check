@@ -1,0 +1,597 @@
+{
+  "schema": "oostervelde-expected-v1",
+  "money_format": "strings with 2 decimals and dot separator, e.g. \"46.44\"",
+  "dates": "dispute_by as ISO date string (YYYY-MM-DD), present only when the verdict is dispute",
+  "totals": {
+    "total_disputed_excl_vat": "2649.85",
+    "total_vat_effect": "662.62",
+    "total_disputed_incl_vat": "3412.47"
+  },
+  "invoices": {
+    "b-B-26-0089.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R1",
+          "decision": "Q2",
+          "line": 1,
+          "line_text": "Bitumen dakbedekking",
+          "issue": "Executed 2025-12-15, billed at 2026 price 39.22 instead of 2025 price 38.00 (B02), 30 x 1.22",
+          "disputed_excl_vat": "36.60",
+          "vat_effect": "7.69",
+          "disputed_incl_vat": "44.29"
+        }
+      ],
+      "total_disputed_excl_vat": "36.60",
+      "total_disputed_incl_vat": "44.29",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-01-16"
+    },
+    "b-B-26-0097.txt": {
+      "verdict": "approve",
+      "findings": [],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked phase 2"
+    },
+    "b-B-26-0099.txt": {
+      "verdict": "approve",
+      "findings": [],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked independent (rest 30)"
+    },
+    "b-B-26-0102.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R4",
+          "decision": null,
+          "line": 4,
+          "line_text": "Voorrijkosten spoed",
+          "issue": "Call-out fee on regular (regulier) work order WO-26-1005",
+          "disputed_excl_vat": "46.44",
+          "vat_effect": "9.75",
+          "disputed_incl_vat": "56.19"
+        }
+      ],
+      "total_disputed_excl_vat": "46.44",
+      "total_disputed_incl_vat": "56.19",
+      "status": "hand-checked phase 2",
+      "dispute_by": "2026-01-29"
+    },
+    "b-B-26-0127.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R6",
+          "decision": "Q12",
+          "line": 2,
+          "line_text": "Arbeid dakdekker",
+          "issue": "10 hours billed, WO-26-1034 max 8 + MU-0241 1 = 9: 1 x 63.98",
+          "disputed_excl_vat": "63.98",
+          "vat_effect": "13.44",
+          "disputed_incl_vat": "77.42"
+        }
+      ],
+      "total_disputed_excl_vat": "63.98",
+      "total_disputed_incl_vat": "77.42",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-02-06"
+    },
+    "b-B-26-0131.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R9",
+          "decision": "Q9",
+          "line": 4,
+          "line_text": "Meerwerk: extra isolatie dakrand",
+          "issue": "Meerwerk 640.00 for WO-26-1015, GA-0419 approves 400.00: 640.00 - 400.00",
+          "disputed_excl_vat": "240.00",
+          "vat_effect": "50.40",
+          "disputed_incl_vat": "290.40"
+        }
+      ],
+      "total_disputed_excl_vat": "240.00",
+      "total_disputed_incl_vat": "290.40",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-02-09"
+    },
+    "b-B-26-0140.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R12",
+          "decision": "Q17",
+          "line": 4,
+          "line_text": "Vogelwering dakgoot",
+          "issue": "Not in price list and not stated as meerwerk; no prior approval found: 9 x 6.50",
+          "disputed_excl_vat": "58.50",
+          "vat_effect": "12.29",
+          "disputed_incl_vat": "70.79"
+        }
+      ],
+      "total_disputed_excl_vat": "58.50",
+      "total_disputed_incl_vat": "70.79",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-02-12"
+    },
+    "b-B-26-0144.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R1",
+          "decision": null,
+          "line": 2,
+          "line_text": "Arbeid dakdekker",
+          "issue": "Billed 66.00 per hour, B01 2026 price 63.98, 7 x 2.02",
+          "disputed_excl_vat": "14.14",
+          "vat_effect": "2.97",
+          "disputed_incl_vat": "17.11"
+        }
+      ],
+      "total_disputed_excl_vat": "14.14",
+      "total_disputed_incl_vat": "17.11",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-02-13"
+    },
+    "h-2026-0031.txt": {
+      "verdict": "approve",
+      "findings": [],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked phase 2"
+    },
+    "h-2026-0035.txt": {
+      "verdict": "approve",
+      "findings": [],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked independent (rest 30)"
+    },
+    "h-2026-0038.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R1",
+          "decision": "Q2",
+          "line": 1,
+          "line_text": "Radiator 600x1200 type 22",
+          "issue": "Executed 17-12-2025, billed at 2026 price 298.25 instead of 2025 price 289.00 (H04), 2 x 9.25",
+          "disputed_excl_vat": "18.50",
+          "vat_effect": "3.89",
+          "disputed_incl_vat": "22.39"
+        },
+        {
+          "rule": "R1",
+          "decision": "Q2",
+          "line": 2,
+          "line_text": "Arbeid installateur",
+          "issue": "Executed 17-12-2025, billed at 2026 price 60.37 instead of 2025 price 58.50 (H02), 3 x 1.87",
+          "disputed_excl_vat": "5.61",
+          "vat_effect": "1.17",
+          "disputed_incl_vat": "6.78"
+        }
+      ],
+      "total_disputed_excl_vat": "24.11",
+      "total_disputed_incl_vat": "29.17",
+      "status": "hand-checked phase 2",
+      "dispute_by": "2026-01-26"
+    },
+    "h-2026-0040.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R1",
+          "decision": "Q2",
+          "line": 1,
+          "line_text": "CV-ketel vervangen, incl. montagemateriaal",
+          "issue": "Executed 22-12-2025, billed at 2026 price 2528.40 instead of 2025 price 2450.00 (H01), 1 x 78.40",
+          "disputed_excl_vat": "78.40",
+          "vat_effect": "16.46",
+          "disputed_incl_vat": "94.86"
+        }
+      ],
+      "total_disputed_excl_vat": "78.40",
+      "total_disputed_incl_vat": "94.86",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-01-26"
+    },
+    "h-2026-0044.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R6",
+          "decision": "Q13",
+          "line": 2,
+          "line_text": "Arbeid installateur",
+          "issue": "8 hours billed, WO-26-1007 max 6, no MU approval: 2 x 60.37",
+          "disputed_excl_vat": "120.74",
+          "vat_effect": "25.36",
+          "disputed_incl_vat": "146.10"
+        }
+      ],
+      "total_disputed_excl_vat": "120.74",
+      "total_disputed_incl_vat": "146.10",
+      "status": "hand-checked phase 2",
+      "dispute_by": "2026-01-27"
+    },
+    "h-2026-0049.txt": {
+      "verdict": "approve",
+      "findings": [],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked independent (rest 30)"
+    },
+    "h-2026-0050.txt": {
+      "verdict": "approve",
+      "findings": [],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked independent (rest 30)"
+    },
+    "h-2026-0052.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R19",
+          "decision": "Q18",
+          "line": null,
+          "line_text": "TOTAAL TE BETALEN: EUR 510,20",
+          "issue": "Total 510.20 but subtotal 339.01 + VAT 71.19 = 410.20; total 100.00 too high",
+          "disputed_excl_vat": "0.00",
+          "vat_effect": "0.00",
+          "disputed_incl_vat": "100.00"
+        }
+      ],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "100.00",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-02-06"
+    },
+    "h-2026-0057.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R3",
+          "decision": "Q3",
+          "line": 1,
+          "line_text": "Koperen leiding 15 mm",
+          "issue": "40 m at 7.25; list H05 167.70 per 25 m roll = 6.708 per m; allowed 40 x 6.708 = 268.32",
+          "disputed_excl_vat": "21.68",
+          "vat_effect": "4.55",
+          "disputed_incl_vat": "26.23"
+        }
+      ],
+      "total_disputed_excl_vat": "21.68",
+      "total_disputed_incl_vat": "26.23",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-02-06"
+    },
+    "h-2026-0058.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R5",
+          "decision": null,
+          "line": 4,
+          "line_text": "Voorrijkosten spoed",
+          "issue": "Second call-out fee on spoed work order WO-26-1040; at most once per work order",
+          "disputed_excl_vat": "46.44",
+          "vat_effect": "9.76",
+          "disputed_incl_vat": "56.20"
+        }
+      ],
+      "total_disputed_excl_vat": "46.44",
+      "total_disputed_incl_vat": "56.20",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-02-10"
+    },
+    "h-2026-0061.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R10",
+          "decision": "Q7",
+          "line": 1,
+          "line_text": "Radiator 600x1200 type 22",
+          "issue": "Charged 9% VAT, 21% applies (dwelling built 1968); VAT under-charged by 35.79",
+          "disputed_excl_vat": "0.00",
+          "vat_effect": "0.00",
+          "disputed_incl_vat": "0.00"
+        },
+        {
+          "rule": "R10",
+          "decision": "Q7",
+          "line": 2,
+          "line_text": "Arbeid installateur",
+          "issue": "Charged 9% VAT, 21% applies (dwelling built 1968); VAT under-charged by 14.49",
+          "disputed_excl_vat": "0.00",
+          "vat_effect": "0.00",
+          "disputed_incl_vat": "0.00"
+        }
+      ],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-02-13"
+    },
+    "h-2026-0063.txt": {
+      "verdict": "approve",
+      "findings": [],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked independent (rest 30)"
+    },
+    "h-2026-C003.txt": {
+      "verdict": "approve",
+      "findings": [],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked independent (rest 30)"
+    },
+    "j-F26-0001.txt": {
+      "verdict": "approve",
+      "findings": [],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked independent (rest 30)"
+    },
+    "j-F26-0007.txt": {
+      "verdict": "approve",
+      "findings": [],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked phase 2"
+    },
+    "j-F26-0010.txt": {
+      "verdict": "approve",
+      "findings": [],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked independent (rest 30)"
+    },
+    "j-F26-0012.txt": {
+      "verdict": "approve",
+      "findings": [],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked phase 2"
+    },
+    "j-F26-0016.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R1",
+          "decision": null,
+          "line": 1,
+          "line_text": "Groepenkast 8 groepen vervangen",
+          "issue": "Billed 1245.00, J02 2026 price 1217.76, 1 x 27.24",
+          "disputed_excl_vat": "27.24",
+          "vat_effect": "5.72",
+          "disputed_incl_vat": "32.96"
+        }
+      ],
+      "total_disputed_excl_vat": "27.24",
+      "total_disputed_incl_vat": "32.96",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-02-03"
+    },
+    "j-F26-0018.txt": {
+      "verdict": "approve",
+      "findings": [],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked independent (rest 30)"
+    },
+    "j-F26-0019.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R13",
+          "decision": "Q14",
+          "line": null,
+          "line_text": "Werkbon: WO-26-1013, Molenweg 19, Rheden, uitgevoerd op 12/12/2025",
+          "issue": "WO-26-1013 already invoiced on F26-0001 of 02-01-2026; same lines and total 1698.84",
+          "disputed_excl_vat": "1404.00",
+          "vat_effect": "294.84",
+          "disputed_incl_vat": "1698.84"
+        }
+      ],
+      "total_disputed_excl_vat": "1404.00",
+      "total_disputed_incl_vat": "1698.84",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-02-10"
+    },
+    "j-F26-0021.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R4",
+          "decision": null,
+          "line": 3,
+          "line_text": "Voorrijkosten spoed",
+          "issue": "Call-out fee on regular (regulier) work order WO-26-1019",
+          "disputed_excl_vat": "46.44",
+          "vat_effect": "9.75",
+          "disputed_incl_vat": "56.19"
+        }
+      ],
+      "total_disputed_excl_vat": "46.44",
+      "total_disputed_incl_vat": "56.19",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-02-11"
+    },
+    "j-F26-0024.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R8",
+          "decision": "Q10",
+          "line": 3,
+          "line_text": "Meerwerk: extra groep keuken aangelegd",
+          "issue": "Meerwerk 310.00 for WO-26-1028 above 250.00, no GA approval: whole amount not reimbursed",
+          "disputed_excl_vat": "310.00",
+          "vat_effect": "65.10",
+          "disputed_incl_vat": "375.10"
+        }
+      ],
+      "total_disputed_excl_vat": "310.00",
+      "total_disputed_incl_vat": "375.10",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-02-13"
+    },
+    "w-DW26-002.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R10",
+          "decision": "Q8",
+          "line": 1,
+          "line_text": "Arbeid schilder",
+          "issue": "Painter labour (W01) charged 21% VAT; dwelling built 1968, 9% applies; VAT over-charged",
+          "disputed_excl_vat": "0.00",
+          "vat_effect": "58.80",
+          "disputed_incl_vat": "58.80"
+        }
+      ],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "58.80",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-01-19"
+    },
+    "w-DW26-004.txt": {
+      "verdict": "approve",
+      "findings": [],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked phase 2"
+    },
+    "w-DW26-009.txt": {
+      "verdict": "approve",
+      "findings": [],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked phase 2"
+    },
+    "w-DW26-011.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R10",
+          "decision": "Q8",
+          "line": 1,
+          "line_text": "Arbeid schilder",
+          "issue": "Painter labour (W01) charged 21% VAT; dwelling built 1968, 9% applies; VAT over-charged",
+          "disputed_excl_vat": "0.00",
+          "vat_effect": "60.68",
+          "disputed_incl_vat": "60.68"
+        }
+      ],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "60.68",
+      "status": "hand-checked phase 2",
+      "dispute_by": "2026-02-02"
+    },
+    "w-DW26-013.txt": {
+      "verdict": "hold",
+      "findings": [
+        {
+          "rule": "R15",
+          "decision": "Q16",
+          "line": null,
+          "line_text": "Opdracht: WO-26-1099",
+          "issue": "Work order WO-26-1099 not in export; hold 489.47 until confirmed. Provisional: prices at 2026 list, arithmetic correct; 21% on labour not verifiable (no build year)",
+          "disputed_excl_vat": "0.00",
+          "vat_effect": "0.00",
+          "disputed_incl_vat": "0.00"
+        }
+      ],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked independent (rest 30)"
+    },
+    "w-DW26-014.txt": {
+      "verdict": "approve",
+      "findings": [],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked independent (rest 30)"
+    },
+    "w-DW26-015.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R10",
+          "decision": "Q7",
+          "line": 1,
+          "line_text": "Arbeid schilder",
+          "issue": "Charged 9% VAT, 21% applies (dwelling built 2025); VAT under-charged by 54.62",
+          "disputed_excl_vat": "0.00",
+          "vat_effect": "0.00",
+          "disputed_incl_vat": "0.00"
+        },
+        {
+          "rule": "R10",
+          "decision": "Q7",
+          "line": 2,
+          "line_text": "Plafond sausen",
+          "issue": "Charged 9% VAT, 21% applies (dwelling built 2025); VAT under-charged by 35.66",
+          "disputed_excl_vat": "0.00",
+          "vat_effect": "0.00",
+          "disputed_incl_vat": "0.00"
+        }
+      ],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-02-06"
+    },
+    "w-DW26-016.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R17",
+          "decision": null,
+          "line": 2,
+          "line_text": "Plafond sausen",
+          "issue": "30 m2 x 7.43 = 222.90, billed 232.90",
+          "disputed_excl_vat": "10.00",
+          "vat_effect": "0.90",
+          "disputed_incl_vat": "10.90"
+        }
+      ],
+      "total_disputed_excl_vat": "10.00",
+      "total_disputed_incl_vat": "10.90",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-02-09"
+    },
+    "w-DW26-017.txt": {
+      "verdict": "approve",
+      "findings": [],
+      "total_disputed_excl_vat": "0.00",
+      "total_disputed_incl_vat": "0.00",
+      "status": "hand-checked independent (rest 30)"
+    },
+    "w-DW26-018.txt": {
+      "verdict": "dispute",
+      "findings": [
+        {
+          "rule": "R6",
+          "decision": "Q13",
+          "line": 1,
+          "line_text": "Arbeid schilder",
+          "issue": "14 hours billed, WO-26-1022 max 12, no MU approval: 2 x 50.57",
+          "disputed_excl_vat": "101.14",
+          "vat_effect": "9.10",
+          "disputed_incl_vat": "110.24"
+        }
+      ],
+      "total_disputed_excl_vat": "101.14",
+      "total_disputed_incl_vat": "110.24",
+      "status": "hand-checked independent (rest 30)",
+      "dispute_by": "2026-02-13"
+    }
+  }
+}
