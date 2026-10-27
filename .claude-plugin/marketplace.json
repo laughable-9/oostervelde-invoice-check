@@ -1,0 +1,11 @@
+{
+  "name": "oostervelde",
+  "owner": {"name": "Kyle Pagunsan"},
+  "plugins": [
+    {
+      "name": "invoice-check",
+      "source": "./",
+      "description": "Checks Woonkring Oostervelde contractor invoices against Article 4 of the framework contract and drafts dispute letters for review."
+    }
+  ]
+}
