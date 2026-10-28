@@ -141,7 +141,7 @@ Her decision always wins and is never silently re-flagged. A reason is required 
 
 **Supporting pieces**
 
-- Install: the repo is a Claude plugin (skill plus MCP server) that she installs from GitHub in Cowork or Claude Code. uv must be installed once.
+- Install: the repo is a Claude plugin (skill plus MCP server) that she installs from GitHub in Cowork or Claude Code. uv must be installed once. If uv is missing the server cannot start, so the skill now detects the missing server and walks her through installing uv; it is the one thing a company rollout would need IT to preinstall.
 - The review list is in English for reviewers, with Dutch terms in brackets.
 - Tests: 96 pass at the moment (`pytest -q`). The flaky dashboard test was caused by the server rejecting a request without reading its body, which resets the connection on Windows; it now reads the body first, and the suite passed three full runs in a row (96 tests).
 
