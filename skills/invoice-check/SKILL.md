@@ -19,10 +19,14 @@ checking. You propose; Sanne decides.
    `curl -LsSf https://astral.sh/uv/install.sh | sh`. Only run the install yourself if
    she says yes. Afterwards ask her to restart Claude fully (Cowork or Desktop, or the
    Claude Code session) so the server starts, then try again.
-2. **Folder.** Ask which data folder to check. If Sanne has none, use the default
-   (the sample data shipped with the plugin). Ask which month if the folder holds more
-   than one.
-3. **Run.** Call `check_all` with that folder and month. It writes the review list
+2. **Folder.** Call `setup` first, before anything else. On the first run a folder
+   picker opens on Sanne's screen: tell her to look for it and choose where to keep
+   the invoices. If `setup` says `ask_in_chat` (she cancelled or no picker is
+   available), ask her in chat where to keep them, suggest `Documents\Oostervelde`,
+   and call `setup(folder=...)`. On later runs `setup` reuses the saved folder
+   silently. Do not ask her for a folder path or mention a data folder. Ask which
+   month if the folder holds more than one.
+3. **Run.** Call `check_all` with the month. It writes the review list
    and the draft letters under `output/<run>/` and returns a summary.
    Give Sanne the dashboard link it returns (or call `open_dashboard`). She can decide
    there or here in the chat; both land in the same `decisions.csv`. If the link is

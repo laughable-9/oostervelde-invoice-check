@@ -13,7 +13,7 @@ Woonkring Oostervelde is a housing association. Sanne in accounts payable checks
 1. Install uv once. Windows PowerShell: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`. macOS or Linux: `curl -LsSf https://astral.sh/uv/install.sh | sh` (see docs.astral.sh/uv).
 2. In Claude Desktop open Cowork, then Customize, then Plugins, and add the marketplace `laughable-9/oostervelde-invoice-check`.
 3. Install the plugin `invoice-check`.
-4. Start a Cowork task and say "check the January invoices".
+4. Start a Cowork task and say "check the January invoices". On first run a window opens to pick a folder; it is set up for you.
 
 Requirements: a paid plan with code execution turned on. Local MCP servers work only in Cowork or Claude Code, not in normal chat.
 
@@ -24,7 +24,7 @@ claude plugin marketplace add laughable-9/oostervelde-invoice-check
 claude plugin install invoice-check@oostervelde
 ```
 
-Or, from a clone of this repo: `claude --plugin-dir .`. Then ask it to check the January invoices.
+Or, from a clone of this repo: `claude --plugin-dir .`. Then ask it to check the January invoices; on first run pick a folder and it is set up for you.
 
 ### c) Tests only
 
