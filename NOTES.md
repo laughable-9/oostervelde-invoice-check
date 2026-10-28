@@ -165,7 +165,7 @@ Her decision always wins and is never silently re-flagged. A reason is required 
   - It needs a paid Claude plan and code execution switched on.
   - uv must be installed once.
   - Local MCP servers do not load in normal Desktop chat, only in Cowork and Claude Code, so she works in Cowork.
-  The plugin is built; the Windows install test is still open (see the last section).
+  The plugin is built; the Claude Code install test on Windows is done, and the Cowork test is still open (see the last section).
 - 28 Oct 2026: Decisions first went only through the chat: Sanne told Claude approve, dispute or hold and Claude called `record_decision`. Kyle found that unintuitive, so I chose buttons on the dashboard instead. The MCP server also serves the dashboard on localhost (127.0.0.1 only, a random token per session), and the buttons write through the same `record_decision` code and the same `decisions.csv` as the chat, with the same overrule counting. Changing a proposal needs a reason and counts as an overrule; Undo adds a row that reopens the invoice and deletes nothing. The file snapshot of the page stays read-only. Nothing in this can send email or pay.
 - 28 Oct 2026: Kyle ruled on Q7 (under-charged VAT). I had proposed a negative VAT effect on the dispute. He decided that these findings dispute 0.00 incl. VAT, never a negative amount, and that we still ask for a corrected invoice. The reason: what we pay must never go above the invoice total. A test now checks that.
 - 28 Oct 2026: Kyle wanted the review list as one dashboard instead of a spreadsheet. I had produced a CSV review list. He called it "a jumbled mess" for Sanne, so `review.html` became the main view and the Markdown review list stays as a record.
@@ -181,7 +181,7 @@ Her decision always wins and is never silently re-flagged. A reason is required 
 
 Built and tested: the MCP server, skill, dashboard, decisions log, letters, cross-month matching and the run over all 40 invoices (17 approve, 22 dispute, 1 hold). The comparison with Sanne's 10 verdicts is in `output/comparison.md`. Not finished or not certain:
 
-- The plugin install in Cowork has not been tested on Windows yet. Kyle tests it before submitting. [Placeholder for Kyle to update: result of the Windows Cowork install test, date and what happened.]
+- The plugin install in Cowork has not been tested on Windows yet. Tested end to end in Claude Code on Windows: install from the GitHub link, the uv walkthrough, the first-run folder picker and the dashboard. I prioritized Claude Code for now because of time. In Cowork the plugin installs through Customize > Plugins rather than from a chat message, and Claude there likely cannot run the uv install itself, so Sanne would paste the install line once. With more time I would test the same flow in Cowork and make sure it works the same in both.
 - The file lock for two Cowork sessions writing at once is tested in one process only, not with two real sessions.
 - An invoice number reused in a later month shares one decision state, so the second invoice would show the earlier decision.
 - The MCP SDK is pinned below version 2. A newer major version may need changes.
